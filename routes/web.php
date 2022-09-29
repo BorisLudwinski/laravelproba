@@ -16,6 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/get-ip', function () {
     return view('get-ip-addres');
+});
+
+Route::get('/app', function () {
+    return view('app');
 });
